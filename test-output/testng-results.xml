@@ -92,12 +92,12 @@
       <![CDATA[Completed executing following method : LoginTest.afterTest]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="87765" started-at="2016-05-27T05:50:03Z" finished-at="2016-05-27T05:51:31Z">
+  <suite name="Suite" duration-ms="95860" started-at="2016-05-27T07:03:45Z" finished-at="2016-05-27T07:05:21Z">
     <groups>
     </groups>
-    <test name="FirefoxTest" duration-ms="49475" started-at="2016-05-27T05:50:03Z" finished-at="2016-05-27T05:50:53Z">
+    <test name="FirefoxTest" duration-ms="32020" started-at="2016-05-27T07:03:45Z" finished-at="2016-05-27T07:04:17Z">
       <class name="com.Astegic.TestCases.LoginTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.Astegic.TestCases.LoginTest@1e643faf]" name="beforeTest" is-config="true" duration-ms="8920" started-at="2016-05-27T11:20:03Z" finished-at="2016-05-27T11:20:12Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.Astegic.TestCases.LoginTest@1e643faf]" name="beforeTest" is-config="true" duration-ms="17224" started-at="2016-05-27T12:33:45Z" finished-at="2016-05-27T12:34:02Z">
           <params>
             <param index="0">
               <value>
@@ -111,7 +111,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Astegic.TestCases.LoginTest@1e643faf]" name="loginTest" duration-ms="39703" started-at="2016-05-27T11:20:12Z" finished-at="2016-05-27T11:20:52Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Astegic.TestCases.LoginTest@1e643faf]" name="loginTest" duration-ms="12619" started-at="2016-05-27T12:34:02Z" finished-at="2016-05-27T12:34:15Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : LoginTest.loginTest]]>
@@ -124,7 +124,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Astegic.TestCases.LoginTest@1e643faf]" name="afterTest" is-config="true" duration-ms="842" started-at="2016-05-27T11:20:52Z" finished-at="2016-05-27T11:20:53Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Astegic.TestCases.LoginTest@1e643faf]" name="afterTest" is-config="true" duration-ms="2159" started-at="2016-05-27T12:34:15Z" finished-at="2016-05-27T12:34:17Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : LoginTest.afterTest]]>
@@ -133,9 +133,9 @@
         </test-method> <!-- afterTest -->
       </class> <!-- com.Astegic.TestCases.LoginTest -->
     </test> <!-- FirefoxTest -->
-    <test name="IETest" duration-ms="19261" started-at="2016-05-27T05:50:53Z" finished-at="2016-05-27T05:51:12Z">
+    <test name="IETest" duration-ms="17749" started-at="2016-05-27T07:04:17Z" finished-at="2016-05-27T07:04:35Z">
       <class name="com.Astegic.TestCases.LoginTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.Astegic.TestCases.LoginTest@1a407d53]" name="beforeTest" is-config="true" duration-ms="4301" started-at="2016-05-27T11:20:53Z" finished-at="2016-05-27T11:20:57Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.Astegic.TestCases.LoginTest@1a407d53]" name="beforeTest" is-config="true" duration-ms="7569" started-at="2016-05-27T12:34:17Z" finished-at="2016-05-27T12:34:25Z">
           <params>
             <param index="0">
               <value>
@@ -149,7 +149,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Astegic.TestCases.LoginTest@1a407d53]" name="loginTest" duration-ms="14249" started-at="2016-05-27T11:20:57Z" finished-at="2016-05-27T11:21:12Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Astegic.TestCases.LoginTest@1a407d53]" name="loginTest" duration-ms="9229" started-at="2016-05-27T12:34:25Z" finished-at="2016-05-27T12:34:34Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : LoginTest.loginTest]]>
@@ -162,7 +162,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Astegic.TestCases.LoginTest@1a407d53]" name="afterTest" is-config="true" duration-ms="711" started-at="2016-05-27T11:21:12Z" finished-at="2016-05-27T11:21:12Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Astegic.TestCases.LoginTest@1a407d53]" name="afterTest" is-config="true" duration-ms="951" started-at="2016-05-27T12:34:34Z" finished-at="2016-05-27T12:34:35Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : LoginTest.afterTest]]>
@@ -171,9 +171,9 @@
         </test-method> <!-- afterTest -->
       </class> <!-- com.Astegic.TestCases.LoginTest -->
     </test> <!-- IETest -->
-    <test name="ChromeTest" duration-ms="19009" started-at="2016-05-27T05:51:12Z" finished-at="2016-05-27T05:51:31Z">
+    <test name="ChromeTest" duration-ms="45940" started-at="2016-05-27T07:04:35Z" finished-at="2016-05-27T07:05:21Z">
       <class name="com.Astegic.TestCases.LoginTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.Astegic.TestCases.LoginTest@7a5d012c]" name="beforeTest" is-config="true" duration-ms="8083" started-at="2016-05-27T11:21:12Z" finished-at="2016-05-27T11:21:20Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.Astegic.TestCases.LoginTest@7a5d012c]" name="beforeTest" is-config="true" duration-ms="30474" started-at="2016-05-27T12:34:35Z" finished-at="2016-05-27T12:35:05Z">
           <params>
             <param index="0">
               <value>
@@ -187,7 +187,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Astegic.TestCases.LoginTest@7a5d012c]" name="loginTest" duration-ms="10182" started-at="2016-05-27T11:21:20Z" finished-at="2016-05-27T11:21:31Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Astegic.TestCases.LoginTest@7a5d012c]" name="loginTest" duration-ms="14765" started-at="2016-05-27T12:35:05Z" finished-at="2016-05-27T12:35:20Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : LoginTest.loginTest]]>
@@ -200,7 +200,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Astegic.TestCases.LoginTest@7a5d012c]" name="afterTest" is-config="true" duration-ms="743" started-at="2016-05-27T11:21:31Z" finished-at="2016-05-27T11:21:31Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Astegic.TestCases.LoginTest@7a5d012c]" name="afterTest" is-config="true" duration-ms="700" started-at="2016-05-27T12:35:20Z" finished-at="2016-05-27T12:35:21Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : LoginTest.afterTest]]>
