@@ -58,7 +58,7 @@ public class DriverUtil {
 				prod.load(DriverUtil.class.getClassLoader()
 						.getResourceAsStream(DEFAULT_PROPERTIES));
 			} catch (IOException e) {
-				
+				e.printStackTrace();
 			}
 		}
 		return prod;
@@ -77,7 +77,7 @@ public class DriverUtil {
 
 	// return test-case name
 	
-	public static String getTestCaseName(String sTestCase) {
+	public static String getTestCaseName(String sTestCase)  {
 		String value = sTestCase;
 		try {
 			int posi = value.indexOf("@");
@@ -87,9 +87,9 @@ public class DriverUtil {
 			return value;
 		} catch (Exception e) {
 			Log.error("Class Utils | Method getTestCaseName | Exception desc : "
-					+ e.getMessage());
-			throw (e);
+					+ e.getMessage());		
 		}
+		return value;
 	}
 
 }
