@@ -54,8 +54,7 @@ public class WorkbookData {
 				return "";
 			}
 
-		} catch (EncryptedDocumentException | InvalidFormatException
-				| IOException e) {
+		} catch (Exception e) {
 			e.getStackTrace();
 		}
 		return cellData;
@@ -88,8 +87,7 @@ public class WorkbookData {
 		try {
 			fis = new FileInputStream(workbookName);
 			wb = WorkbookFactory.create(fis);
-		} catch (EncryptedDocumentException | InvalidFormatException
-				| IOException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		// Access the required test data sheet
