@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.Astegic.Logging.Listener"/>
+  </listeners>
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.Astegic.TestCases.LoginTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.Astegic.TestCases.LoginTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test name="IETest(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.Astegic.TestCases.LoginTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.Astegic.TestCases.LoginTest -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Astegic.TestCases.LoginTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.Astegic.TestCases.LoginTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
